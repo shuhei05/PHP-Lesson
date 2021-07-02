@@ -24,6 +24,13 @@
       print "3. タイトルは$aです。<br />";
       print "4. タイトルは{$a}です。<br />";
       print "5. タイトルは".$a."です。<br />";
+
+      $price = 300;
+      $pretax_price = 300 * TAX;
+      $unit = "円";
+
+      print "300円の税込みは" . $pretax_price . $unit . "です";
+
  ?>
  </body>
 </html>
