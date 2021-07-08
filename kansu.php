@@ -26,4 +26,11 @@
   // 戻り値を$totalに格納
   $total = addNum(2, 3);
   print $total;
+
+  function getDrink($e, $d = "Drink") {
+    print $d."<br />";
+    print $e;
+}
+
+getDrink("Tea");
 ?>
